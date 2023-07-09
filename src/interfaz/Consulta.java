@@ -120,9 +120,9 @@ public class Consulta extends JFrame {
 		
 		
 		JButton boton_ReporteListadoCompleto = new JButton("Listado completo");
-		boton_ReporteListadoCompleto.setEnabled(false);
 		boton_ReporteListadoCompleto.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				//Imprimir en PDF el listado
 			}
 		});
 		boton_ReporteListadoCompleto.setBounds(45, 401, 169, 50);

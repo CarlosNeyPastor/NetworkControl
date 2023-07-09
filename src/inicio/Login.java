@@ -94,7 +94,7 @@ public class Login extends JFrame {
 					dispose();
 					new interfaz.MenuPrincipal().setVisible(true);
 				}else{
-					 JOptionPane.showMessageDialog(null, "El usuario o contrase�a no son correctos",
+					 JOptionPane.showMessageDialog(null, "El usuario o contrase\\u00F1a no son correctos",
 						      "Error!", JOptionPane.WARNING_MESSAGE);
 				}
 			}

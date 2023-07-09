@@ -16,6 +16,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.awt.event.ActionEvent;
 import javax.swing.JTextField;
+import java.awt.Toolkit;
 
 public class AsignarIP extends JFrame {
 
@@ -37,8 +38,9 @@ public class AsignarIP extends JFrame {
 	 * Create the frame.
 	 */
 	public AsignarIP() {
+		setIconImage(Toolkit.getDefaultToolkit().getImage("D:\\eclipse-workspace\\NetworkControl\\icons\\RJ45.png"));
 		setTitle("Network Control");
-		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		setBounds(100, 100, 409, 257);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
